@@ -1,4 +1,4 @@
 # Keylloger
 
-Emailto = email you send to
-Emailfrom = email you send with
+#Emailto = email you send to
+#Emailfrom = email you send with
